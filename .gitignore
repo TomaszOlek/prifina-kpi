@@ -1,0 +1,16 @@
+node_modules
+lerna-debug.log
+.DS_Store
+
+.env
+.env.test
+
+/backups
+
+# package builds
+#packages/*/dist
+
+# yarn.lock instead...
+package-lock.json
+
+# packages/imessage/stories/Messaging.stories.js

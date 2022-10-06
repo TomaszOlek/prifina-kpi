@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_prifina_widgets_prifina_kpi=self.webpackChunk_prifina_widgets_prifina_kpi||[]).push([[354,29],{7029:(e,i,t)=>{var a=t(8316);i.createRoot=a.createRoot,i.hydrateRoot=a.hydrateRoot}}]);
