@@ -34,8 +34,8 @@ function ChartData({chartData, handleChart}) {
         return (
             <div className="chart-tooltip">
             <div className="chart_custom_tooltip">
-                <span>Day: {payload[0].day}</span>
-                <span>Downloads: {payload[0].downloads}</span>
+                <span>Day: {payload[0].payload.dateSpan}</span>
+                <span>Downloads: {payload[0].payload.totalDownloads}</span>
             </div>
             </div>
         );

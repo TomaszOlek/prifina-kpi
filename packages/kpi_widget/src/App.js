@@ -144,9 +144,11 @@ const App = (props) => {
   },[weeklyDownloads,allTimeDownloads])
 
   useEffect(()=>{
-    console.log("readyData", readyData)
-    if(packagesData.length === readyData.length){
-      setIsReady(true)
+    if(packagesData.length === readyData.length && readyData.length > 0){
+      setTimeout(
+        function() {
+          setIsReady(true)
+        }, 100);
     }
   },[readyData])
 
